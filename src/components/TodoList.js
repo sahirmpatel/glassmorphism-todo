@@ -8,7 +8,11 @@ const TodoList = ({ toDoList, togglestrike, filterStrikes }) => {
         <ToDo todo={todo} togglestrike={togglestrike} />
       ))}
 
-      <button onClick={filterStrikes}>Filter completed tasks</button>
+      <div className="filter-button-parent">
+        <button className="filter-button" onClick={filterStrikes}>
+          Filter completed
+        </button>
+      </div>
     </div>
   );
 };

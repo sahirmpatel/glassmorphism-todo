@@ -14,15 +14,16 @@ const AddTodoForm = ({ addTask }) => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className="todoform">
+      <form className="todoform_form" onSubmit={handleSubmit}>
         <input
           type="text"
           placeholder="Add Task"
           value={userInput}
           onChange={handleChange}
+          className="todoform_input"
         />
-        <button>Add Task</button>
+        <button className="todoform_submit-button">+</button>
       </form>
     </div>
   );
