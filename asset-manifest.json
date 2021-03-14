@@ -1,21 +1,21 @@
 {
   "files": {
     "main.css": "/glassmorphism-todo/static/css/main.296aa76d.chunk.css",
-    "main.js": "/glassmorphism-todo/static/js/main.feaced2a.chunk.js",
-    "main.js.map": "/glassmorphism-todo/static/js/main.feaced2a.chunk.js.map",
+    "main.js": "/glassmorphism-todo/static/js/main.7f3d6736.chunk.js",
+    "main.js.map": "/glassmorphism-todo/static/js/main.7f3d6736.chunk.js.map",
     "runtime-main.js": "/glassmorphism-todo/static/js/runtime-main.6bb16502.js",
     "runtime-main.js.map": "/glassmorphism-todo/static/js/runtime-main.6bb16502.js.map",
-    "static/js/2.125074e0.chunk.js": "/glassmorphism-todo/static/js/2.125074e0.chunk.js",
-    "static/js/2.125074e0.chunk.js.map": "/glassmorphism-todo/static/js/2.125074e0.chunk.js.map",
+    "static/js/2.89853990.chunk.js": "/glassmorphism-todo/static/js/2.89853990.chunk.js",
+    "static/js/2.89853990.chunk.js.map": "/glassmorphism-todo/static/js/2.89853990.chunk.js.map",
     "index.html": "/glassmorphism-todo/index.html",
     "static/css/main.296aa76d.chunk.css.map": "/glassmorphism-todo/static/css/main.296aa76d.chunk.css.map",
-    "static/js/2.125074e0.chunk.js.LICENSE.txt": "/glassmorphism-todo/static/js/2.125074e0.chunk.js.LICENSE.txt",
+    "static/js/2.89853990.chunk.js.LICENSE.txt": "/glassmorphism-todo/static/js/2.89853990.chunk.js.LICENSE.txt",
     "static/media/App.css": "/glassmorphism-todo/static/media/john-towner-JgOeRuGD_Y4-unsplash.4ba5c702.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.6bb16502.js",
-    "static/js/2.125074e0.chunk.js",
+    "static/js/2.89853990.chunk.js",
     "static/css/main.296aa76d.chunk.css",
-    "static/js/main.feaced2a.chunk.js"
+    "static/js/main.7f3d6736.chunk.js"
   ]
 }
