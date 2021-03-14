@@ -1,12 +1,21 @@
 import { React, useState } from "react";
-import Header from "./components/Header";
-import data from "./data.json";
-import TodoList from "./components/TodoList";
-import AddTodoForm from "./components/AddTodoForm";
+import Header from "./Header";
+// import data from "./data.json";
+import { useLocalStorageState } from "use-local-storage-state";
+import TodoList from "./TodoList";
+import AddTodoForm from "./AddTodoForm";
 import { v4 as uuidv4 } from "uuid";
 
 function MainCard() {
-  const [toDoList, setToDoList] = useState(data);
+  // const [toDoList, setToDoList] = useState(data);
+
+  const [toDoList, setToDoList] = useLocalStorageState("localtodos", [
+    {
+      id: 1,
+      task: "Friday reservation at Dorsia",
+      complete: true,
+    },
+  ]);
 
   function togglestrike(id) {
     let newstrikeddata = toDoList.map((task) => {

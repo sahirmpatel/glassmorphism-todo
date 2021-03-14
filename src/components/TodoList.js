@@ -5,7 +5,7 @@ const TodoList = ({ toDoList, togglestrike, filterStrikes }) => {
   return (
     <div>
       {toDoList.map((todo) => (
-        <ToDo todo={todo} togglestrike={togglestrike} />
+        <ToDo todo={todo} key={todo.id} togglestrike={togglestrike} />
       ))}
 
       <div className="filter-button-parent">

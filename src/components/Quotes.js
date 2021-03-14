@@ -18,9 +18,6 @@ export const Quotes = () => {
 
   useEffect(() => {
     getquote();
-    //   return () => {
-    //       cleanup
-    //   }
   }, []);
 
   return (
